@@ -3,14 +3,14 @@ $(document).ready(function() {
 	//////////////////////////////////////////////////////////////////////////////
 	////     INSERT YOUR NODE RPC URL, NETWORK ID AND GAS PRICE HERE        //////
 	//////////////////////////////////////////////////////////////////////////////
-	var rpcURL = "http://your-fancy-node-url:8545";
-	var networkID = 12345;
-	var minGasPrice = 0;
+	var rpcURL = "https://polygon-rpc.com";
+var networkID = 137;
+var minGasPrice = 30000000000; // 30 Gwei, adjust if needed
 	//////////////////////////////////////////////////////////////////////////////
 	////     INSERT THE TOKEN AND FAUCET ADDRESS HERE                       //////
 	//////////////////////////////////////////////////////////////////////////////
-	var token_address = '0x0000000000000000000000000000000000000000';
-	var faucet_address = '0x0000000000000000000000000000000000000000';
+	var token_address = '0x572868082700D96B8b62Efa74e33B01932AA5342';
+	var faucet_address = '0x572868082700D96B8b62Efa74e33B01932AA5342';
 	//////////////////////////////////////////////////////////////////////////////
 
 	var account;
